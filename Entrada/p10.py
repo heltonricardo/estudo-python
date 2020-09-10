@@ -1,0 +1,5 @@
+n = int(input('Entre um valor inteiro .: '))
+print()
+print('Antecessor .: {}'.format(n - 1))
+print('Sucessor ...: {}'.format(n + 1))
+input()
