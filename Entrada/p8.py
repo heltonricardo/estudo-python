@@ -1,0 +1,6 @@
+name = input('Insira seu nome: ')
+print('=' * 60)
+print('Justificar a esquerda.: *{:<30}*'.format(name))
+print('Justificar a direira..: *{:>30}*'.format(name))
+print('Centralizado..........: *{:^30}*'.format(name))
+print('Completar com caract..: *{:_^30}*'.format(name))
