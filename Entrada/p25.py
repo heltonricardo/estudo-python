@@ -1,0 +1,11 @@
+from math import sin, cos, tan, radians
+n = float(input('Entre o valor para um ângulo: '))
+n = radians(n)
+s = sin(n)
+c = cos(n)
+t = tan(n)
+print()
+print('Seno.....: {:.2f}'.format(s))
+print('Cosseno..: {:.2f}'.format(c))
+print('Tangente.: {:.2f}'.format(t))
+input()
