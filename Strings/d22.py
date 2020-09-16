@@ -1,0 +1,8 @@
+nome = input('Insira seu nome completo: ').strip()
+print()
+print('Maiúsculo:', nome.upper())
+print('Minúsculo:', nome.lower())
+print('Número de letras (sem espaços)....:', len(nome.replace(' ', '')))
+primeiro = nome.split()
+print('Número de letras do primeiro nome.:', len(primeiro[0]))
+input()
