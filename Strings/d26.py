@@ -1,0 +1,5 @@
+frase = input('Insira uma frase: ').strip()
+print('Quantidade de letra "a".: ', frase.lower().count('a'))
+print('Posição da primeira "a".: ', frase.lower().find('a') + 1)
+print('Posição da última "a"...: ', frase.lower().rfind('a') + 1)
+input()
