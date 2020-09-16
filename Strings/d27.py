@@ -1,0 +1,5 @@
+nome = input('Insira seu nome completo: ')
+lista = nome.split()
+print('Primeiro nome.:', lista[0])
+print('Último nome...:', lista[len(lista) - 1])
+input()
