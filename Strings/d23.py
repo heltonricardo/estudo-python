@@ -1,0 +1,8 @@
+m = int(input('Entre valor de 0 a 9999: '))
+n = str(m).zfill(4)
+print()
+print('Unidade.:', n[3])
+print('Dezena..:', n[2])
+print('Centena.:', n[1])
+print('Milhar..:', n[0])
+input()
