@@ -1,0 +1,6 @@
+print(25.234567)
+print(round(25.234567, 2))
+print(round(25.234567, 3))
+print(round(25.234567, 4))
+print(round(25.234567, 5))
+input()
