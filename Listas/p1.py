@@ -1,0 +1,11 @@
+lista = ['Ovo', 'Leite', 'Farinha']
+print('Minha lista:', lista)
+lista.append('Açúcar')
+print('\nlista.append(elem):', lista)
+lista.insert(1, 'Manteiga')
+print('\nlista.insert(pos, elem):', lista)
+print('\n')
+print('del lista[ind] = Apaga o elemento com índice ind')
+print('\nlista.pop(ind) = Apaga o elemento com índice ind ou o último (quando não possui parâmetro)')
+print('\nlanche.remove(elem) = Apaga o primeiro elemento elem')
+input()
