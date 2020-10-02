@@ -1,0 +1,5 @@
+times = ('Palmeiras', 'Atlético-MG', 'São Paulo', 'Santos', 'Internacional', 'Goiás', 'Botafogo', 'Corinthians', 'Flamengo', 'Athletico-PR', 'Bahia', 'Ceará', 'Fluminense', 'Fortaleza', 'Cruzeiro', 'Grêmio', 'Chapecoense', 'Avaí', 'CSA', 'Vasco')
+print('A)', times[:6])
+print('\nB)', times[-4:])
+print('\nC)', sorted(times))
+print('\nD) Chapecoense está na posição', times.index('Chapecoense') + 1)
