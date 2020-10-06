@@ -1,0 +1,38 @@
+﻿# TROCA DE VALORES
+A, B = B, A
+
+# ENTRADA GENÉRICA INT/FLOAT
+N = eval(input())
+
+# LISTA DE INTEIROS
+lista = [int(x) for x in str(input()).split()]
+
+# TRANSPOSTA DE MATRIZ COM DUAS DIMENÇÕES
+t = [[lin[i] for lin in m] for i in range(len(m[0]))]
+
+# PERCORRER VETOR DE TRÁS PARA FRENTE
+vetor[::-1]
+
+# ENUMERAÇÃO COM LAÇO ITERATIVO E FSTRING
+for i, elem in enumerate(vetor):
+    print(f'{elem} in position {i + 1:2}')
+
+# INTERSECÇÃO
+I = [x for x in A if x in B]
+
+# ORDENAÇÃO PELO SEGUNDO CAMPO (ÍNDICE 1)
+# LISTA COMPOSTA A = [['A', 5], ['B', 4]]
+sorted(A, key=lambda x: x[1])
+
+# LISTA COM VALORES ÚNICOS: set(lista)
+# UNIÃO SEM REPETIÇÃO set(a) | set(b)
+# INTERSECÇÃO SEM REPETIÇÃO set(a) & set(b)
+
+# CONVERTER O FLOAT DO PYTHON PARA FLOAT32 (SIMPLES PRECISÃO)
+from struct import pack, unpack
+a = float(input())
+b = float(unpack('f', pack('f', a))[0])
+
+# INPUT ATÉ EOF COM FOR
+from sys import stdin
+for line in stdin: x, y, n = [int(x) for x in line.split()]
