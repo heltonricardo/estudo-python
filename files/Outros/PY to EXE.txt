@@ -1,0 +1,8 @@
+INSTALAÇÃO
+pip install pyinstaller
+
+USO
+pyinstaller --onefile filename
+
+OBSERVAÇÃO
+Pode usar somente o arquivo.exe dentro de dist e apagar o resto
